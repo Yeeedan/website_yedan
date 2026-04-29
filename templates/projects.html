@@ -50,7 +50,7 @@
     {% endfor %}
     </div>
 
-    {% for asset in page.assets | sort %}
+    {% for asset in section.assets | sort %}
     <img src="{{ get_url(path=asset) }}" />
     {% endfor %}
 
