@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ section.title }}</title>
+    <link href="/css/styles.css" rel="stylesheet" />
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            background-image: url("bg_images/bg_1.png");
+            background-size: cover;
+            background-position: center;
+            transition: background-image 0.5s;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div>
+    <ul class="projects_list">
+        {% for section_path in section.subsections %}
+            {% set subsection = get_section(path=section_path) %}
+            <h1><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></h1>
+        {% endfor %}
+     <i>{{ section.content | safe }}</i>
+    </ul>
+
+</div>
+    
+<script>
+    let imgId = 1;
+    const images = ["bg_images/bg_1.png"];
+
+    function updateImg(){
+        document.body.style.backgroundImage = "url(" + images[imgId % images.length] + ")";
+        imgId++;
+    }
+    setInterval(updateImg, 5000);
+</script>
+
+</body>
+</html>

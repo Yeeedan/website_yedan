@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ section.title }}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="custom-cursor">
+
+  <div class="sidebar">
+        <a href=".." style="text-decoration: none; color: inherit;">
+            <h2>{{ section.title }}</h2>
+        </a>
+      {{ section.content | safe }}
+  </div>
+
+  <div class="projects_images">
+      {# 循环开始：确保每张图片都生成一个新的 project_preview 容器 #}
+      {% for asset in section.assets %}
+          {% if asset is matching("[.](png|jpg|jpeg|gif|webp)$") %}
+              <div class="project_preview">
+                  <img class="project_img" src="{{ get_url(path=asset) }}" />
+              </div>
+          {% endif %}
+      {% endfor %}
+  </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

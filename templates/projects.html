@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="custom-cursor">
+
+    <div class="sidebar">
+        <a href="/" style="text-decoration: none; color: inherit;">
+            <h2>{{ section.title }}</h2>
+        </a>
+        
+        <ul class="projects_list">
+        {% for section_path in section.subsections %}
+        
+            {% set subsection = get_section(path=section_path) %}
+            <li>
+                <a href="{{ subsection.permalink }}">{{ subsection.title }}</a>
+            </li>
+
+        {% endfor %}  
+        </ul>
+    </div>
+
+    {# BOUCLE POUR LES SECTIONS #}
+    <div class="projects_images">
+
+    {% for section_path in section.subsections %}
+
+        {% set subsection = get_section(path=section_path) %}
+        <div class="project_preview">
+            <a href="{{ subsection.permalink }}">
+
+                {# Récupère la première image des assets du projet #}
+                {% set_global first_image_found = false %}
+                {# boucle pour chaque image du sous dossier#}
+                {% for asset in subsection.assets %}
+                    {% if not first_image_found and asset is matching("[.](png|jpg|jpeg|gif|webp)$") %}
+                        <img class="project_img" src="{{ get_url(path=asset) }}" />
+                        {% set_global first_image_found = true %}
+                    {% endif %}
+                {% endfor %}
+            
+            </a>
+        </div>
+
+    {% endfor %}
+    </div>
+
+</body>
+</html>

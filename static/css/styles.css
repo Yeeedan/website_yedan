@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Timezone';
+    src: url(../fonts/HALTimezoneUnlicensed-Light.otf);
+}
+
+@font-face {
+    font-family: 'TimezoneLT';
+    src: url(../fonts/HALTimezoneUnlicensed-LightItalic.otf);
+}
+
+body {
+    margin: 2%;
+    background-color: #f6f6f6;
+    color: #1f1f1f;
+    font-family: 'Timezone';
+    background-size: cover;
+}
+
+.sidebar{
+    position: fixed;
+    overflow-y: auto; 
+    max-height: 100vh;
+    width: 25vw;
+    padding: 0;
+    line-height: 1.25;
+    background-color: #f6f6f6;
+    z-index: 10;
+    transition: z-index 0s;
+}
+
+.projects_list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.projects_list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projects_list a:hover {
+    text-decoration: line-through;
+    /*background-color: #baf143;*/
+    cursor: crosshair;
+}
+
+.sidebar h2:hover {
+    text-decoration: line-through;
+    cursor: crosshair;
+    font-family: 'TimezoneLT';
+}
+
+.sidebar ::selection {
+    background-color: #525020; 
+    color: #f6f6f6;
+}
+
+.projects_images {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 核心：水平居中 */
+    gap: 80px;           /* 每一张图片之间绝对相等的间隙（可以换成 10vh） */
+    padding: 100px 0;    /* 顶部和底部的留白 */
+    width: 60vw;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.project_preview {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 确保图片在容器内居中 */
+}
+
+.project_img {
+    /* 1. 基础尺寸：宽度撑满 60vw */
+    width: 100%; 
+    
+    /* 2. 核心限制：高度不能超过屏幕的 80% (或你喜欢的比例) */
+    /* 这样竖向图片就会自动缩小宽度来适应高度，不会被拉伸 */
+    max-height: 85vh; 
+    
+    /* 3. 防止挤压：保持比例 */
+    object-fit: contain; 
+    height: auto;
+    
+    /* 4. 优化：如果图片原本很小，不要强行拉大 */
+    max-width: 100%; 
+}
+
+.project_img:hover {
+    cursor: crosshair;
+}
+
+.sidebar:hover {
+    z-index: 20; 
+}
+
+.projects_images:hover {
+    z-index: 21; 
+}
