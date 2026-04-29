@@ -7,7 +7,7 @@ weight = 215
 
 Typeface
 </br>Latin de base et Europe de l’Ouest, Chiffres, Ponctuation, Symboles, Ligatures contextuelles.
-Ensba-lyon, 2025
+</br>Ensba-lyon, 2025
 
 Filum est issu d’un projet de revival. Ma référence est une Égyptienne issue d’un spécimen de 1914 de la fonderie Ollière & Cie Pairs. Tout en conservant sa stabilité structurelle et le rythme alternant formes rondes et angles vifs, j’ai cherché à la transformer en une typographie à empattements monoline. J’ai supprimé le contraste des pleins et déliés : visuellement monoline, bien que les verticales soient techniquement plus larges de 2 points.
 

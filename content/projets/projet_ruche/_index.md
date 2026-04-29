@@ -5,7 +5,7 @@ weight = 190
 
 +++
 
-Font variable, livres expérimentaux
+Font variable expérimentaux
 </br>Project Type Design sous la direction de Thomas Bizzarri
 </br>Ensba-Lyon, 2025–2026 en cours
 

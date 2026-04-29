@@ -50,5 +50,9 @@
     {% endfor %}
     </div>
 
+    {% for asset in page.assets | sort %}
+    <img src="{{ get_url(path=asset) }}" />
+    {% endfor %}
+
 </body>
 </html>
