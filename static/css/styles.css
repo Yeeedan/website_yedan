@@ -31,7 +31,7 @@ body {
 .projects_list {
     list-style-type: none;
     padding: 0;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 .projects_list a {

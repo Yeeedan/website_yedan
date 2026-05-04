@@ -5,7 +5,7 @@ weight = 200
 
 +++
 
-*Edition, 125x200mm, 36 pages*  
+Edition, 125x200mm, 36 pages  
 Impression Offset  
 Ensba-Lyon, 2025
 
