@@ -4,6 +4,7 @@ template = "project.html"
 weight = 240
 
 +++
+
 Redesign d’affiche d’archive, gravure sur bois (CNC) 
 </br>Project Image, Ensba-Lyon, 2024
 

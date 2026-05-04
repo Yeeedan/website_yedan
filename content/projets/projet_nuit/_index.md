@@ -1,13 +1,13 @@
 +++
 title="Nuit blanche vers l'aube"
 template = "project.html"
-weight = 280
+weight = 295
 
 +++
 
 
 Vidéo, 4’53’’, 2023
-</br<a href="https://vimeo.com/913617153?share=copy">https://vimeo.com/913617153?share=copy</a>
+</br><a href="https://vimeo.com/913617153?share=copy">https://vimeo.com/913617153?share=copy</a>
 
 
 « Le soleil ne s’étant pas encore levé,

@@ -24,5 +24,4 @@ Le choix du français est ici intentionnel. Le chinois, trop proche de notre rel
 
 
 Référence:
-My Mexican Bretzel (2019)
-Sans Soleil (1983)
+My Mexican Bretzel (2019), Sans Soleil (1983)

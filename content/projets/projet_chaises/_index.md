@@ -1,7 +1,7 @@
 +++
 title="Les Chaises"
 template = "project.html"
-weight = 270
+weight = 290
 
 +++
 

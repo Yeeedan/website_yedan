@@ -5,7 +5,8 @@ weight = 260
 
 +++
 
-Characters asémique, édition 100 * 220 mm, 16 pages, Ensba-Lyon, 2024
+Characters asémique, édition 100 * 220 mm, 16 pages
+</br>Ensba-Lyon, 2024
 
 Le processus de Ø (ensemble vide) a débuté par l'invention d'une série de caractères inlisible par l’écriture manuscrite, avant de les transcrire sous forme typographique. J’ai commencé par dessiner des ellipses verticales continues, suivant l’habitude du tracé lié de la calligraphie chinoise, les laissant croître librement comme des lianes. Ensuite, je les ai forcées à se rompre, à se compresser et à s’aligner pour intégrer un système de grille horizontale.
 

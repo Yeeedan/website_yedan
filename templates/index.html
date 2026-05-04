@@ -15,7 +15,6 @@
             background-image: url("bg_images/bg_1.png");
             background-size: cover;
             background-position: center;
-            transition: background-image 0.5s;
             color: white;
         }
 
@@ -34,17 +33,6 @@
     </ul>
 
 </div>
-    
-<script>
-    let imgId = 1;
-    const images = ["bg_images/bg_1.png"];
-
-    function updateImg(){
-        document.body.style.backgroundImage = "url(" + images[imgId % images.length] + ")";
-        imgId++;
-    }
-    setInterval(updateImg, 5000);
-</script>
 
 </body>
 </html>
