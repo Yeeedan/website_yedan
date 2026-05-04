@@ -6,13 +6,12 @@ weight = 10
 +++
 
 
-Édition, 110 * 170 mm, 64+20 pages
-</br>vidéo et sonore
-</br>2026 en cour, Ensba-Lyon
+Édition, 110 * 170 mm, 64+20 pages  
+vidéo et sonore  
+2026 en cour, Ensba-Lyon  
 
-Une archéologie des murmures : Extrait I – Le Dîner de Veille, vidéo et sonore, 2'10'', 2026
-</br><a href="https://vimeo.com/1186975786?share=copy&fl=sv&fe=ci">https://vimeo.com/1186975786?share=copy&fl=sv&fe=ci</a>
-
+Une archéologie des murmures : Extrait I – Le Dîner de Veille, vidéo et sonore, 2'10'', 2026  
+<a href="https://vimeo.com/1186975786?share=copy&fl=sv&fe=ci">https://vimeo.com/1186975786?share=copy&fl=sv&fe=ci</a>
 
 La mémoire collective s’écrit dans les manuels, tandis que les mémoires individuelles se dispersent. J’en ai hérité une part, et j’ai ressenti la nécessité de la transmettre. Avec mes moyens, et selon ma propre méthode, je l’ai éditée sous forme de livre. 
 
@@ -23,5 +22,5 @@ La structure articule des textes en prose issus de mes souvenirs et des transcri
 Le choix du français est ici intentionnel. Le chinois, trop proche de notre relation, tend vers le langage du quotidien ; l’anglais, pour moi, reste direct, efficace et public, mais peine à porter des nuances sensibles. Le français constitue un espace intermédiaire, qui me permet d’écrire autrement.
 
 
-Référence:
-My Mexican Bretzel (2019), Sans Soleil (1983)
+Référence:  
+My Mexican Bretzel (2019), Sans Soleil (1983).

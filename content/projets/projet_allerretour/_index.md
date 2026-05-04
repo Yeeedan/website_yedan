@@ -16,4 +16,4 @@ C’est un projet que j’ai réalisé avec mon amie dans un cours de L3. Nous a
 Nous avons également réalisé une énorme affiche de journal, dans l’espoir qu’elle puisse apparaître dans différents coins de la ville comme un point de regroupement. Dans notre exposition de rue, nous avons présenté quatre projets de diplôme d'étudiants en Design de communication visuelle de CAA, centrés sur la ville pour engager un large public. Les spectateurs ont participé à notre initiative de créer des « cartes » mobiles de la ville. Lors de la réalisation de ces cartes, nous avons invité les spectateurs à utiliser leurs impressions subjectives et leurs déplacements quotidiens comme principales références.
 
 
-Co-réalisation avec Li Xinyi, à l'Académie des arts de Chine, Hangzhou
+*Co-réalisation avec Li Xinyi, à l'Académie des arts de Chine, Hangzhou*

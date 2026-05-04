@@ -5,9 +5,9 @@ weight = 200
 
 +++
 
-Edition, 125*200mm, 36 pages
-</br>Impression Offset
-</br>Ensba-Lyon, 2025
+*Edition, 125x200mm, 36 pages*  
+Impression Offset  
+Ensba-Lyon, 2025
 
 Dans l’imaginaire collectif, l’œuf évoque la fragilité et la promesse de vie, tandis que la pierre renvoie à la permanence et à la disparition. Cette édition tente de déplacer cette opposition à travers une forme fragmentaire.
 

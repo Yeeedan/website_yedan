@@ -21,7 +21,7 @@ body {
     overflow-y: auto; 
     max-height: 100vh;
     width: 25vw;
-    padding: 0;
+    padding: 2;
     line-height: 1.25;
     background-color: #f6f6f6;
     z-index: 10;
